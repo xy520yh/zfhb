@@ -1,0 +1,89 @@
+html,body,ul,ol,h1,h2,h3,h4,h5,h6,p,th,td,dl,dt,dd,form,input,textarea,select,.cf{margin:0;padding:0;box-sizing: border-box;}
+*{box-sizing: border-box;}
+body{font-size:.12rem; font-family: Helvetica, Microsoft YaHei, Tohoma, Arial; background:#fffcf7;}
+h1,h2,h3,h4,h5,h6,b{font-weight: normal;}
+a{text-decoration:none;outline:none;}
+li{list-style:none}
+img{border:none;vertical-align:middle;}
+html{overflow-x:hidden;overflow:-Scroll;overflow-x:hidden}
+html,body{ -webkit-tap-highlight-color: transparent; }/*去除apple设备点击底色*/
+body{background: #f6f7f9;}
+/*浮动清理*/
+.cf:before,.cf:after{content:".";display:block;height:0;visibility:hidden}
+.cf:after{clear:both}
+.cf{zoom:1}
+/*.wrap{ margin:0 auto; width:7.5rem; position:relative;}
+.wrap_header{ background:url(../images/wrap_head_bg.jpg) no-repeat;width:7.5rem; height:1.42rem;  background-size: 100% 100%; text-align:center;}
+.header_title{font-size:0.36rem; color:#fff;height:1.42rem; line-height:1.42rem; width:7.5rem;}*/
+/*首页*/
+.wrap{display:flex;min-height:100vh;flex-direction:column}
+.wrap_header{position:relative;background:#fff;width:100%;height:0.9rem;text-align:center;margin:0 auto;line-height:0.9rem}
+.header_return{left:0.5rem;position:absolute;top:0rem;line-height:0.9rem}
+.header_return a{color:#6b84b8;font-size:0.32rem}
+.header_title a{color:#565656;font-size:0.4rem}
+.header_tip{right:0.3rem;position:absolute;top:0rem;line-height:0.9rem}
+.header_tip img{width:0.47rem;height:0.47rem}
+.main-container{max-width:6.86rem;flex:1;margin:0 auto}
+.main_cz{margin:0 auto;max-width:100%}
+.pay_ewm{padding:0.64rem 0.4rem 0.64rem;width:6.86rem;background:#fff;border-radius:0.05rem;
+font-size: 0.32rem; text-align: center;color:#565656;}
+p.pay_ewm_img img{width:3.79rem;height:3.80rem;}
+ p.pay_wx_img img{width:0.88rem;height:auto;}
+
+.pay_type{padding:0rem 0.4rem;width:6.86rem;background:#fff;border-radius:0.05rem;margin-bottom: 0.4rem;}
+.pay_type ul{display:flex;flex-direction:column;padding:0 .1rem}
+.pay_type ul li{display:flex;justify-content:space-between;align-items:center;width:100%;font-size:.32rem;color:#333333;border-bottom:0.02rem solid #d9d9d9;padding-bottom:0.32rem;padding-top:0.32rem}
+.pay_type ul li .type{display:flex;align-items:center;height:100%}
+.pay_type ul li.last{border-bottom:none}
+.pay_type ul li .type i{display:inline-block;width:0.88rem;height:0.88rem;margin-right:0.24rem}
+.pay_type ul li .type i.wx{background:url(../images/recharge_main_wx.png) no-repeat;background-size:100% 100%}
+.pay_type ul li .type i.zfb{background:url(../images/recharge_main_zfb.png) no-repeat;background-size:100% 100%}
+.pay_type ul li .type i.wxsm{background:url(../images/recharge_main_wxsm.png)  no-repeat;background-size:100% 100%}
+.pay_type ul li .type i.zfbsm{background:url(../images/recharge_main_zfbsm.png) no-repeat;background-size:100% 100%}
+.pay_type ul li i.check{display:inline-block;width:.46rem;height:0.46rem;background:url(../images/recharge_radio.png);background-size:100% 100%}
+.pay_type ul li.active i.check{background-image:url(../images/recharge_radio_checked.png)}
+.recharge_price{text-align:center;margin-top:0.5rem;margin-bottom:0.96rem}
+.recharge_price p{color:#565656;font-size:0.32rem;font-weight:normal}
+.recharge_price h2{color:#000;font-size:0.8rem;font-weight:normal;margin-top:0.1rem;margin-bottom:0.05rem}
+.recharge_price h2 em{color:#000;font-size:0.32rem;font-style:normal;font-weight:normal}
+.wrap_footer{width:6.86rem;height:0.84rem;margin:0 auto;text-align:center;margin-bottom:0.2rem;background:#6b85b8;border-radius:0.05rem;}
+.wrap_footer a{width:6.86rem;height:0.84rem;color:#fff;font-size:0.4rem;text-align:center;line-height:0.84rem}
+
+
+
+.masked{background: rgba(0,0,0,0.8);position: fixed; width:100%;height:100%;left:0;top:0; z-index: 1; }
+.part1_tc_email{width: 6.88rem; height:7rem;position: fixed;color:#fff;top:50%;left:50%;margin-left:-3.44rem;margin-top:-3.5rem;transition: all 0.3s; z-index: 2;}
+
+.main_dayi_center{width: 6.88rem; height:7rem;position: fixed;color:#fff;top:1rem;left:50%;margin-left:-3.44rem;transition: all 0.3s; z-index: 2;}
+.main_dayi_center p.question{color:#555756;font-size: 0.32rem;margin-bottom: 0.15rem;margin-bottom: 0.3rem;}
+.main_dayi_center p.answer{color:#000002;font-size: 0.32rem;}
+p.answer span{color:#ff696a;}
+.tc_email_bg{width: 6.88rem; height:7rem;background:#fff;border-radius:0.05rem;padding-top: 1.12rem;}
+.tc_email_bg .closed{position:absolute;top:0.2rem;right:0.2rem;z-index:6;cursor: pointer;}
+.tc_email_bg .closed img{width: 0.35rem;height: 0.35rem;transition: all 0.3s;}
+.tc_email_bg img:hover{transform:rotate(90deg);width: 0.35rem;height: 0.35rem;}
+.email_wrap{text-align:center;width:4.34rem;margin:0 auto;font-size:0.32rem;color:#565656}
+p.wx_text{margin-bottom: 0.3rem;margin-top: 0.3rem;}
+
+.input_style{width:0.46rem;position:relative;height:0.46rem;display:inline-block;color:#fff;margin-right:0.1rem;margin-top:0.05rem}
+input[type='radio']{width:0.46rem;cursor:pointer;height:0.46rem;vertical-align:middle;opacity:0;color:#fff;position:absolute;top:0;left:0}
+
+.radio_bg{background:url(../images/recharge_radio.png)   no-repeat;background-size:100% 100%}
+.radio_bg_check{background:url(../images/recharge_radio_checked.png) no-repeat;background-size:100% 100%}
+
+/*底部*/
+/* .money{position: fixed;z-index: 999;bottom: 0;left: 0;width: 100%;height: 1.2rem;display: flex;justify-content: space-between;align-items: center;box-shadow: -0.1rem 0rem .15rem rgba(0,138,255,.1);padding: 0 .3rem;background: #FFFFFF;}
+.money p{display: flex;align-items: center;font-size: .28rem;color: #000;}
+.money p span{padding-left: .35rem;font-size: .36rem;color: #fe403c;font-weight: bold;}
+.money p span i{font-weight: bold;}
+.money button{height: .68rem;line-height: .68rem;text-align: center;font-size: .32rem;color: #FFFFFF;letter-spacing: .02rem;border-radius: .68rem;outline: none;display: inline-block;width: 100%;background: #008aff;width: 1.6rem;flex-shrink: 0;} */
+
+.main_zf_center img,.main_sorry_center img{width: 1.75rem;height: 1.75rem;}
+.text_big{font-size:0.58rem;margin-bottom:1.3rem;margin-top: 0.3rem;}
+.green{color:#89c27e;}
+.red{color:#ff696a;}
+.main_zf_center{max-width:6.86rem; margin-left: -3.43rem; position: absolute;left: 50%;top:50%;height:5rem;margin-top: -2.5rem;text-align: center;}
+p.sorry_text{font-size:0.32rem;color: #565656;}
+.text_big1{font-size:0.58rem;margin-bottom:0.3rem;margin-top: 0.3rem;}
+.sorry_text{margin-bottom:1.3rem;}
+.main_sorry_center{max-width:6.86rem; margin-left: -3.43rem; position: absolute;left: 50%;top:50%;height:6.2rem;margin-top: -3.1rem;text-align: center;}
