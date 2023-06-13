@@ -25,7 +25,7 @@ body{background: #f6f7f9;}
 .header_tip img{width:0.47rem;height:0.47rem}
 .main-container{max-width:80%;flex:1;margin:0 auto}
 .main_cz{margin:0 auto;max-width:100%}
-.pay_ewm{padding:0.2rem;width:5rem;background:#fff;border-radius:0.05rem; margin:0 auto;height: 4.4rem;
+.pay_ewm{padding:0.3rem;width:6.86rem;background:#fff;border-radius:0.05rem; margin:0 auto;
 font-size: 0.32rem; text-align: center;color:#565656;}
 p.pay_ewm_img img{width:2.5rem;height:auto;}
  p.pay_wx_img img{width:0.88rem;height:auto;}
